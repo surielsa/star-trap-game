@@ -1,19 +1,17 @@
 {
-  "name": "star-trap-game",
+  "name": "mvc_design",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/surielsa/star-trap-game.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/surielsa/star-trap-game/issues"
-  },
-  "homepage": "https://github.com/surielsa/star-trap-game#readme"
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "pack": "^2.2.0"
+  }
 }

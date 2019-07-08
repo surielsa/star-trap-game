@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<!-- BS JavaScript -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- Have fun using Bootstrap JS -->
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="survey-header">
+        <div class="container">
+            <a href="survey.ejs" id="questionnaire-header" styles="text-decoration: none">QUESTIONNAIRE</a>
+            <ul class="nav justify-content-end">
+            </ul>
+        </div>
+    </header>
+
+
+    <div id="main-container" class="container">
+        <section class="questionnaire-section">
+            <div id=bestMatch></div>
+            <form >
+                <ul class="nav justify-content-end">
+                    <p>
+                        Below are a series of questions designed for the research and development of an online
+                        celebrity fantasy
+                        dating
+                        application.
+                        Some of the questions are simply based on basic communication and common knowledge of zodiac
+                        compatibility. You are by
+                        no means obligated to answer every question. We do not want anyone outside of his or her
+                        comfort zone.
+                    </p>
+                </ul>
+                <p>name:</p><input id="celebrity" type="text">
+                <p>img url:</p><input id="img" type="text">
+
+                <p>What sex gender are you seeking?</p>
+                <select class="select" id="gender">
+                    <option value="m">m</option>
+                    <option value="f">f</option>
+                </select>
+
+
+                <p>What is your zodiac sign?</p>
+                <select class="select" id="zodiac">
+                    <option value="Aries">Aries March 21 - April 19</option>
+                    <option value="Taurus">Taurus April 20 - May 20</option>
+                    <option value="Gemini">Gemini May 21 - June 22</option>
+                    <option value=Cancer>Cancer June 21 - July 22</option>
+                    <option value="Leo">Leo July 23 - August 22</option>
+                    <option value="Virgo">Virgo August 23 - September 22</option>
+                    <option value="Libra">Libra September 23 - October 22</option>
+                    <option value="Scorpio">Scorpio October 23 - November 21</option>
+                    <option value="Sagittarius">Sagittarius November 22 - December 21</option>
+                    <option value="Capricorn">Capricorn December 22 - January 19</option>
+                    <option value="Aquarius">Aquarius January 20 - February 18</option>
+                    <option value="Pisces">Pisces February 19 - March 20</option>
+                </select>
+
+                <p>What is your favorite color?</p>
+                <select class="select">
+                    <option value="1">RED</option>
+                    <option value="2">GREEN</option>
+                    <option value="3">BLUE</option>
+                    <option value="4">YELLOW</option>
+                    <option value="5">BLACK</option>
+                </select>
+
+                <p>Are you religious?</p>
+                <select class="select">
+                    <option value="1">no</option>
+                    <option value="2">not really</option>
+                    <option value="3">not sure</option>
+                    <option value="4">somewhat</option>
+                    <option value="5">definitely</option>
+                </select>
+
+                <p>Whats your favorite past time hobby?</p>
+                <select class="select">
+                    <option value="1">reading</option>
+                    <option value="2">working out</option>
+                    <option value="3">creating</option>
+                    <option value="4">eating</option>
+                    <option value="5">sleeping</option>
+                </select>
+
+                <p>Whats your favorite cuisine?</p>
+                <select class="select">
+                    <option value="1">American</option>
+                    <option value="2">south american</option>
+                    <option value="3">Italian</option>
+                    <option value="4">Indian</option>
+                    <option value="5">caribbean</option>
+                </select>
+
+                <p>Are you looking for love?</p>
+                <select class="select">
+                    <option value="1">never</option>
+                    <option value="2">perhaps</option>
+                    <option value="3">not sure</option>
+                    <option value="4">definitely</option>
+                    <option value="5">not at the moment</option>
+                </select>
+
+                <p>Are you interested in casual dating?</p>
+                <select class="select">
+                    <option value="1">never</option>
+                    <option value="2">not sure</option>
+                    <option value="3">yes</option>
+                    <option value="4">for now</option>
+                    <option value="5">why not</option>
+                </select>
+
+                <p>Do you want kids?</p>
+                <select class="select">
+                    <option value="1">never</option>
+                    <option value="2">not likely</option>
+                    <option value="3">not sure</option>
+                    <option value="4">it depends</option>
+                    <option value="5">yes</option>
+                </select>
+
+                <p>Do you smoke?</p>
+                <select class="select">
+                    <option value="1">never</option>
+                    <option value="2">not anymore</option>
+                    <option value="3">sometimes</option>
+                    <option value="4">I might start</option>
+                    <option value="5">yes</option>
+                </select>
+
+                <p>Do you drink alcohol?</p>
+                <select class="select">
+                    <option value="1">never</option>
+                    <option value="2">sometimes</option>
+                    <option value="3">socially</option>
+                    <option value="4">yes</option>
+                    <option value="5">all the time</option>
+                </select>
+
+                <p>Do you like to read books?</p>
+                <select class="select">
+                    <option value="1">never</option>
+                    <option value="2">not as much as I would like</option>
+                    <option value="3">sometimes</option>
+                    <option value="4">often</option>
+                    <option value="5">Do magazines count?</option>
+                </select>
+
+                <p>Are you a clingy person?</p>
+                <select class="select">
+                    <option value="1">never</option>
+                    <option value="2">not really</option>
+                    <option value="3">not sure</option>
+                    <option value="4">sometimes</option>
+                    <option value="5">yes</option>
+                </select>
+
+                <p>Do you enjoy watching sports?</p>
+                <select class="select">
+                    <option value="1">never</option>
+                    <option value="2">sometimes</option>
+                    <option value="3">not really</option>
+                    <option value="4">yes</option>
+                    <option value="5">all the time</option>
+                </select>
+
+                <p>Are you an athletic person?</p>
+                <select class="select">
+                    <option value="1">never been</option>
+                    <option value="2">not anymore</option>
+                    <option value="3">yes</option>
+                    <option value="4">sometimes</option>
+                    <option value="5">big time</option>
+                </select>
+
+                <p>Do you have children?</p>
+                <select class="select">
+                    <option value="1">no</option>
+                    <option value="2">yes</option>
+                    <option value="3">not sure</option>
+                    <option value="4">it depends</option>
+                    <option value="5">several</option>
+                </select>
+
+                <p>Are you opposed to dating a person with children?</p>
+                <select class="select">
+                    <option value="1">never</option>
+                    <option value="2">least likely</option>
+                    <option value="3">not sure</option>
+                    <option value="4">somewhat likely</option>
+                    <option value="5">most likely</option>
+                </select>
+
+                <button id="submit-btn" data-toggle="MyModal" type="submit">SUBMIT</button>
+            </form>
+            <div class="modal" id="myModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+            <script type="text/javascript">
+            $(window).load(function() {
+
+            
+                document.getElementById("submit-btn").addEventListener("click", function (event) {
+                    event.preventDefault()
+                    var newUser = {
+                        gender: document.getElementById("gender").value,
+                        zodiac: document.getElementById("zodiac").value,
+                        celebrities: document.getElementById("celebrity").value,
+                        //scores: document.getElementById("scores"),
+                        scores: [] //scores gets filled out by the for loop below
+                    }
+                    // grab all <select> tags in html so we can loop through this and get the selected option
+                    // var select = document.getElementsByClassName("select")
+                    // // select is basically and array
+                    // for (var i = 0; i < select.length; i++) {
+                    //     /* 
+                    //         'select[i].options ' is an array of all the possible answers for the
+                    //         current <select> being looped through.
+
+                    //         select[i].selectedIndex is equal to the index number that it belongs to in the array
+
+                    //     */
+                    //     newUser.scores.push(select[i].options[select[i].selectedIndex].value)
+                    // }
+                    var httpRequest = new XMLHttpRequest()
+                    httpRequest.open("POST", window.location.origin + "/api/results")
+                    httpRequest.setRequestHeader("Content-Type", "application/json")
+                    httpRequest.send(JSON.stringify(newUser))
+                
+                    httpRequest.onloadend = function(req,res) {
+                        console.log(httpRequest.response)
+             
+                    }
+                })
+            })
+            </script>
+        </section>
+
+    </div>
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
+</body>
+
+</html>
