@@ -1,6 +1,6 @@
 # Star Trap
 
-![Image description](link-to-image)
+![](media/homepage2.png)
 
 
 ## Description
@@ -49,7 +49,7 @@ In the future we would like to make this app more functonal with all the questio
 
 ### Establishing our connection...
 
-![connection.js](config/connection.js)
+![connection.js](media/connectionpic.png)
 
 
 
