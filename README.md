@@ -15,6 +15,10 @@ Our motivaton was to create something fun for a world obsessed with celebrities 
 
 We are able to match the users zodiac sign to their compatible celebrity. We are currently able to get the results we need from the console but achieving this on the results page was a hard task.
 
+## Tech Used
+
+### 
+
 ## Embedded JavaScript Templates (New Tech)
 
 We used EJS (Embedded JavaScript Templates).
