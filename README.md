@@ -1,4 +1,4 @@
-# Star Trap
+# Star Trap Game
 
 ![Home Page](media/homepage2.png)
 
@@ -9,7 +9,7 @@ This is a celebrity fantasy dating game. The game is meant as something users fi
 
 ### Example of how our clickbait would look.
 
-![example](media/lbscott_screenshot_wad)
+![example](media/lbscott_screenshot_wad.jpg)
 
 ## Motivation
     
@@ -26,7 +26,7 @@ We are able to match the users zodiac sign to their compatible celebrity. We are
 
 ## Embedded JavaScript Templates (New Tech)
 
-![ejs](media/ejsindex.png)
+![](media/ejsindex.png)
 
 We used EJS (Embedded JavaScript Templates). This is a really cool because it to links HTML and Javascript.
 
@@ -60,21 +60,22 @@ In the future we would like to make this app more functonal with all the questio
 
 ### ORM Object Relational Mapping...
 
-![ORM](media/ORMvid.webm)
+https://drive.google.com/open?id=1yMdn8O-ReIdXYsLah2v9bQlvoGE3QqtQ
 
 ### Our Controller...
 
-![Controller](media/controller.webm)
+https://drive.google.com/open?id=1azTXOkH3RZbBBbYI2m9pHQgRHj4xI11Q
 
 ### Our Database...
 
-![MySQL](schema.png)
+![MySQL](media/schema.png)
 
-![server](serverpic.png)
-
+![server](media/serverpic.png)
 
 
 ## Our Presentation
+
+https://drive.google.com/open?id=1IW7C2m1YYI1CmPu3p9neYsPQJJtFQLjv
 
 https://docs.google.com/presentation/d/1RxEQWBx-rhv6NK61hTGaWaQ7U6-SXTKtPdwna4tPXRk/edit?usp=sharing
 
